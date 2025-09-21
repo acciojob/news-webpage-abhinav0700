@@ -1,1 +1,56 @@
 /*  your css code here. If applicable */
+/* Body */
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  background-color: #011e29;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Container Layout */
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  gap: 20px;
+}
+
+/* Latest News Section */
+.latest-news-section {
+  background-color: white;
+  padding: 15px;
+  width: 25%;
+  border-radius: 10px;
+}
+
+/* Main Article Section */
+.main-article-section {
+  background-color: white;
+  padding: 15px;
+  width: 45%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/* Pictorial News Section */
+.pictorial-news-section {
+  background-color: white;
+  padding: 15px;
+  width: 25%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.pictorial-news-section img {
+  width: 100%;
+  margin: 10px 0;
+  border-radius: 5px;
+}
